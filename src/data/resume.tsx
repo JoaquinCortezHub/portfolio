@@ -8,22 +8,22 @@ export const DATA = {
   location: "Mendoza, Argentina",
   locationLink: "https://maps.app.goo.gl/gnKJAGxUbKk5U3Za7",
   description:
-    "Frontend developer & UX/UI designer. I love building eye-catching products that make impact on people.",
+    "Fulstackk developer & UX/UI designer. I love building eye-catching products that make impact on people.",
   summary:
     "After studying international commerce for a semester, I decided to take an 180° turn and dive into tech. I started doing some graphic design work, to then break into UX/UI design, which I studied for almost 2 years. After an eye-opening year in the USA, I realized building meaningful, innovative products was what I really loved. Since then, I have been polishing and bettering my programming skills to offer high-quality products to my clients.",
-  avatarUrl: "/profile2.jpg",
+  avatarUrl: "/io.jpg",
   skills: [
     "React",
     "Next.js",
     "Typescript",
     "Figma",
-    "Supabase",
-    "Tailwind CSS",
+    "react-native",
+    "TailwindCSS",
     "Git",
-    "Prisma",
+    "Nest.js",
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
+    // { href: "/", icon: HomeIcon, label: "Home" },
     { href: "https://joasdevjournal.netlify.app/", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
@@ -44,13 +44,13 @@ export const DATA = {
 
         navbar: true,
       },
-      X: {
-        name: "X",
-        url: "https://x.com/joacolcortez",
-        icon: Icons.x,
+      // X: {
+      //   name: "X",
+      //   url: "https://x.com/joacolcortez",
+      //   icon: Icons.x,
 
-        navbar: true,
-      },
+      //   navbar: true,
+      // },
       CV: {
         name: "Curriculum",
         url: "https://drive.google.com/file/d/1vAxo82W2WPa5_tLd5wfJ0FyIO51-y18h/view?usp=drive_link",
@@ -67,8 +67,8 @@ export const DATA = {
       href: "",
       badges: [],
       location: "Remote",
-      title: "Frontend developer",
-      logoUrl: "",
+      title: "Fullstack developer",
+      logoUrl: "/personalP.jpg",
       start: "Oct 2023",
       end: "Present",
       description:
@@ -80,7 +80,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "UX/UI Designer",
-      logoUrl: "",
+      logoUrl: "/personalP.jpg",
       start: "August 2022",
       end: "Oct 2023",
       description:
@@ -115,6 +115,37 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "KiteSpot",
+      href: "https://llm.report",
+      dates: "November 2024 - January 2025",
+      active: false,
+      description:
+        "Developed a fullstack website dedicated to help kitesurfers analyze weather conditions of their favorite spots. The site also show useful data like wind gusts, wind direction or kite size recommendation.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "fancyComponents",
+        "TailwindCSS",
+        "Shadcn UI",
+        "OpenWeatherMap",
+        "Nest.js",
+      ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "https://llm.report",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        {
+          type: "Source",
+          href: "https://github.com/JoaquinCortezHub/kitespot-frontend",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/kitespot-demo.png",
+      video: "",
+    },
+    {
       title: "Personal Blog",
       href: "https://joasdevjournal.netlify.app",
       dates: "Jul 2024 - Aug 2024",
@@ -140,8 +171,7 @@ export const DATA = {
         }
       ],
       image: "/blog-site.png",
-      video:
-        "",
+      video: "",
     },
     {
       title: "QR Code Generator Site",
@@ -149,7 +179,7 @@ export const DATA = {
       dates: "June 2024",
       active: false,
       description:
-        "Designed a website to convert urls into functional QR codes. This project was a test run for an upcoming project I have in mind.",
+        "Designed a website to convert urls into functional QR codes. This project was a test run for an upcoming project I had in mind.",
       technologies: [
         "Typescript",
         "TailwindCSS",
@@ -173,66 +203,28 @@ export const DATA = {
       video: "",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "Automatic Chat",
+      title: "SafeMe",
       href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      dates: "2023",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "I designed and prototyped an app that allows users to stay informed about natural disasters that might occur near them, and to be able to ask for help in case they find themselves involved in a dangerous situation.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Figma",
+        "User research",
+        "prototyping",
+        "UI design",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://automatic.chat",
+          type: "Figma File",
+          href: "https://www.figma.com/design/GEKl0DUirrEkS97QtSGDoy/Practice?node-id=402-114&t=hfcr0WVzZXcQs5iy-1",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/safeme-demo.png",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "",
     },
   ],
   hackathons: [

@@ -60,7 +60,7 @@ const HighlightedText = ({
 	return (
 		<p className={cn(className)}>
 			<span ref={frontendTextRef} className="relative">
-				frontend developer
+				Fullstack developer
 			</span>{" "}
 			&{" "}
 			<span ref={uxTextRef} className="relative">
